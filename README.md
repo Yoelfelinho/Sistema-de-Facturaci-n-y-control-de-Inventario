@@ -1,28 +1,65 @@
-# Sistema de Gestión de Proveedores y Artículos
+# Sistema de Facturación y Control de Inventarios
 
-Este proyecto es una aplicación web desarrollada en **Laravel**, orientada a la gestión de proveedores y artículos, permitiendo realizar operaciones CRUD (Crear, Leer, Actualizar y Eliminar) de forma segura y eficiente.
+Proyecto desarrollado como parte del módulo **Programación de Sistemas de Información**
 
 ---
 
-## Características
+##  Objetivo del Proyecto
 
-- Registro, edición y eliminación de proveedores
-- Registro y control de artículos
-- Relación proveedor–artículo mediante claves foráneas
-- Validaciones de formularios
-- Uso de migraciones
-- Interfaz con Bootstrap
-- Protección CSRF
-- Arquitectura MVC
+- Diseñar e implementar una **solución web empresarial** que permita la **facturación y el control de inventarios** de una empresa.
+- Aplicar el framework **Laravel** para el desarrollo del sistema.
+- Utilizar **MySQL** como gestor de base de datos relacional.
+
+---
+
+##  Descripción de la Aplicación
+
+La aplicación permite gestionar de manera integral el proceso de **facturación e inventario** de un almacén.  
+El sistema registra y administra la información necesaria para garantizar un control adecuado de los productos y las ventas.
+
+### Funcionalidades Principales
+
+- Registro de clientes
+- Registro de artículos
+- Registro de proveedores
+- Listado de clientes, artículos y proveedores
+- Actualización automática del stock de artículos
+- Control de inventarios
+- Proceso de facturación:
+  - Generación de facturas
+  - Selección de artículos y cantidades
+  - Cálculo automático de totales e impuestos
+- Devoluciones
+- Consultas de información
+
+El sistema asegura que el proceso de facturación se realice únicamente con artículos disponibles en inventario, manteniendo la coherencia de las existencias en bodega.
+
+---
+
+##  Requerimientos de la Aplicación
+
+El sistema debe cumplir con las siguientes características:
+
+- Registro de clientes
+- Búsqueda de clientes
+- Registro de artículos
+- Listado de artículos
+- Actualización de stock de artículos
+- Registro de devoluciones
+- Realización de ventas (facturación)
+- Consultas
+- Registro de proveedores
+- Listado de proveedores
 
 ---
 
 ##  Tecnologías Utilizadas
 
-- PHP 8.x
-- Laravel 10.x
-- MySQL / MariaDB
-- Bootstrap 5
-- Blade Templates
+- **Lenguaje:** PHP 8.x  
+- **Framework:** Laravel  
+- **Base de Datos:** MySQL  
+- **Servidor Local:** XAMPP  
+- **Interfaz:** HTML5, CSS3, Bootstrap  
+- **Arquitectura:** MVC (Modelo – Vista – Controlador)
 
 
